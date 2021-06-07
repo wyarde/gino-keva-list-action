@@ -1,0 +1,11 @@
+name: Gino Keva - List
+description: "Use Gino Keva to list all key/values stored in Git notes"
+inputs:
+  who-to-greet: # id of input
+    description: "Who to greet"
+    required: true
+    default: "World"
+outputs: {} # Outputs set based on key/values
+runs:
+  using: docker
+  image: "Dockerfile"
