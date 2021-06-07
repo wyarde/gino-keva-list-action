@@ -4,6 +4,3 @@ outputs: {} # Actual outputs are set based on key/values
 runs:
   using: docker
   image: Dockerfile
-  args:
-    - ${{ inputs.key }}
-    - ${{ inputs.value }}
