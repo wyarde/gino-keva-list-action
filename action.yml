@@ -1,6 +1,6 @@
 name: Gino Keva - List
-description: "Use Gino Keva to list all key/values stored in Git notes"
+description: Use Gino Keva to list all key/values stored in Git notes
 outputs: {} # Actual outputs are set based on key/values
 runs:
   using: docker
-  image: "Dockerfile"
+  image: Dockerfile
