@@ -1,6 +1,8 @@
 # Gino Keva list action
 
-This action invokes [Gino Keva](https://github.com/philips-software/gino-keva) to list all key/value pairs stored in Git notes
+This action invokes [Gino Keva](https://github.com/philips-software/gino-keva) to list all key/value pairs stored in Git notes.
+
+To set key/values, the corresponding [gino-keva-set-action](https://github.com/wyarde/gino-keva-set-action) can be used.
 
 ## Outputs
 
