@@ -1,4 +1,4 @@
-FROM philipssoftware/gino-keva:0.1.6
+FROM philipssoftware/gino-keva:2.0.0
 
 COPY entrypoint.sh /
 
